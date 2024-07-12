@@ -14,6 +14,11 @@
 
 <p align="center">🇨🇳 中文简体  |  <a title="English" href="README_EN.md">🇬🇧 English</a></p>
 
+安装后使用安装插件，选装
+```bash
+npm install hexo-renderer-pug hexo-renderer-stylus hexo-deployer-git hexo-abbrlink hexo-generator-search hexo-renderer-pandoc hexo-filter-mathjax
+```
+
 预览: 👍 [AnZhiYu](https://blog.anheyu.com/) || 🤞 [AnZhiYu](https://index.anheyu.com/)
 
 文档: 📖 [anzhiyu Docs](https://docs.anheyu.com/)
