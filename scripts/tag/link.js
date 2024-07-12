@@ -20,13 +20,13 @@ function link(args) {
         <div class="tag-link-left" style="${
           imgUrl ? `background-image: url(${InsideStation ? "/img/512.png" : imgUrl})` : ""
         }">
-          <i class="anzhiyufont anzhiyu-icon-link" style="${imgUrl ? "display: none" : ""}"></i>
+          <i class="iconfont iagm-link" style="${imgUrl ? "display: none" : ""}"></i>
         </div>
         <div class="tag-link-right">
             <div class="tag-link-title">${title}</div>
             <div class="tag-link-sitename">${sitename}</div>
         </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+        <i class="iconfont iagm-angle-right"></i>
     </div>
     </a></div>`;
 }

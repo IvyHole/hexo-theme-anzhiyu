@@ -1,0 +1,101 @@
+- class_name: 关于页
+  subtitle: 嗯呐哒，嗯呐哒✨
+  avatarImg: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+  avatarSkills:
+    left:
+      - 🎮 游戏开发畅想者
+      - 🔍 独自陶醉设计者
+      - 🔨 设计开发一条龙
+    right:
+      - 软件开发爱好者 🖥
+      - 不切实际躺平派 💤
+      - 探索世界无知者 🧱
+  name: Agimoesu
+  description: 是一名废物
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: HELLO ABOUT!
+  skillsTips:
+    tips: 技能
+    title: 充满活力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: EDU,智能科学与技术
+        color: "#357ef5"
+      - desc: WORK,开发工程师
+        color: "#357ef5"
+    img: https://image.agimoesu.top/i/2024/png/6690939eb973a.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://image.agimoesu.top/i/2024/jpg/668faba965c40.jpg
+  map:
+    title: 我人在
+    StrengthenTitle: 这个世界
+    background: https://image.agimoesu.top/i/2024/webp/668fac2e14231.webp
+    backgroundDark: https://image.agimoesu.top/i/2024/webp/668fac2e019f5.webp
+  selfInfo:
+    selfInfoTips2: 现在职业
+    selfInfoContent2: 工作狗
+  personalities:
+    author_name: 建筑师
+    personality_type: INTJ-T
+    photo_url: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+    personality_img: https://image.agimoesu.top/i/2024/svg/668faba9bc568.svg
+    name_url: https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 
+    maxim_top: 万物都会，
+    maxim_bottom: 向着美好前进。
+  buff:
+    buff_tips: 生活
+    buff_top: 社会底层的 垃圾
+    buff_bottom: 颓废指数 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: 任何非MOBA
+    game_uid: ""
+    game_bg: https://image.agimoesu.top/i/2024/jpg/668fae4fedbc1.jpg
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 葬送的芙莉莲
+        href: https://www.bilibili.com/bangumi/media/md21087073
+        cover: https://image.agimoesu.top/i/2024/webp/668fb3c849255.webp
+      - name: 我推的孩子
+        href: https://www.bilibili.com
+        cover: https://image.agimoesu.top/i/2024/webp/668fb3c847d95.webp
+      - name: 命运-奇异赝品 黎明低语
+        href: https://www.bilibili.com/bangumi/media/md28480911
+        cover: https://image.agimoesu.top/i/2024/webp/668fb3c836501.webp
+      - name: 银河英雄传说
+        href: https://www.bilibili.com/bangumi/media/md28339717
+        cover: https://image.agimoesu.top/i/2024/webp/668fb3c8b7f07.webp
+      - name: 孤独摇滚
+        href: https://www.bilibili.com/bangumi/media/md28339735
+        cover: https://image.agimoesu.top/i/2024/webp/6690907b1b233.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://image.agimoesu.top/i/2024/webp/668fb3f0bae08.webp
+    like_bottom: 单片机, PC
+  music:
+    music_tips: 音乐偏好
+    music_title: 轻音乐&可愛い
+    music_bg: https://image.agimoesu.top/i/2024/png/668faba7743ff.png
+    music_link: /music
+  reward_list:
+    - name: Myself
+      amount: 65
+      datatime: 2023-04-07
+   

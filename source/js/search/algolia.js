@@ -77,7 +77,7 @@ window.addEventListener("load", () => {
     searchClient: algoliasearch(algolia.appId, algolia.apiKey),
     searchFunction(helper) {
       if (helper.state.query) {
-        let innerLoading = '<i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i>';
+        let innerLoading = '<i class="iconfont iagm-spinner anzhiyu-spin"></i>';
         document.getElementById("algolia-hits").innerHTML = innerLoading;
         helper.search();
       }
@@ -157,10 +157,10 @@ window.addEventListener("load", () => {
     container: "#algolia-pagination",
     totalPages: algolia.hits.per_page ?? 5,
     templates: {
-      first: '<i class="anzhiyufont anzhiyu-icon-angle-double-left"></i>',
-      last: '<i class="anzhiyufont anzhiyu-icon-angle-double-right"></i>',
-      previous: '<i class="anzhiyufont anzhiyu-icon-angle-left"></i>',
-      next: '<i class="anzhiyufont anzhiyu-icon-angle-right"></i>',
+      first: '<i class="iconfont iagm-angle-double-left"></i>',
+      last: '<i class="iconfont iagm-angle-double-right"></i>',
+      previous: '<i class="iconfont iagm-angle-left"></i>',
+      next: '<i class="iconfont iagm-angle-right"></i>',
     },
     scrollTo: false,
     showFirstLast: false,

@@ -103,7 +103,7 @@ if site.data.about
                 - let link = item.statistic.link
                 - let text = item.statistic.text
                 a.banner-button(onclick=`pjax.loadUrl("${link}")`)
-                  i.anzhiyufont.anzhiyu-icon-arrow-circle-right
+                  i.iconfont.iagm-arrow-circle-right
                   |  
                   span.banner-button-text=text
         .author-content-item-group.column.mapAndInfo
@@ -169,7 +169,7 @@ if site.data.about
               |  
               span=buff_bottom
           .card-background-icon
-            i.anzhiyufont.anzhiyu-icon-dice-d20
+            i.iconfont.iagm-dice-d20
 
       .author-content
         - let {game_tips, game_title, game_uid, game_bg} = item.game
@@ -210,7 +210,7 @@ if site.data.about
               .tips=`跟 ${aboutName} 一起欣赏更多音乐`
             .banner-button-group
               a.banner-button(onclick=`pjax.loadUrl("${music_link}")`)
-                i.anzhiyufont.anzhiyu-icon-arrow-circle-right
+                i.iconfont.iagm-arrow-circle-right
                 |  
                 span.banner-button-text 更多推荐
 

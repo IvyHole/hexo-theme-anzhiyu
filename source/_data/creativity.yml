@@ -1,0 +1,50 @@
+- class_name: 充满活力
+  creativity_list:
+    - name: Java
+      color: "#fff"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241b6f6fb.webp
+    - name: Docker
+      color: "#57b6e6"
+      icon: https://image.agimoesu.top/i/2024/png/668e240982b0d.png
+    - name: C
+      color: "#4082c3"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241a4ac4a.webp
+    - name: C++
+      color: "#333"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241b9849b.webp
+    - name: C#
+      color: "#2e3a41"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241a8c4c2.webp
+    - name: Python
+      color: "#fff"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241b0072e.webp
+    - name: Lua
+      color: "#fff"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241b2a3a0.webp
+    - name: Go
+      color: "#937df7"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241a3a51e.webp
+    - name: Typescript
+      color: "#4499e4"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241add98b.webp
+    - name: Piettier
+      color: "#b8f0ae"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241aa1242.webp
+    - name: Godot
+      color: "#222"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241ace1b5.webp
+    - name: CSS3
+      color: "#2c51db"
+      icon: https://image.agimoesu.top/i/2024/png/668e240982b16.png
+    - name: JS
+      color: "#f7cb4f"
+      icon: https://image.agimoesu.top/i/2024/png/668e2409d9d73.png
+    - name: HTML
+      color: "#e9572b"
+      icon: https://image.agimoesu.top/i/2024/png/668e2409dc02a.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://image.agimoesu.top/i/2024/webp/668e2409a8aa8.webp
+    - name: Mysql
+      color: "#e65164"
+      icon: https://image.agimoesu.top/i/2024/webp/668e241b35707.webp

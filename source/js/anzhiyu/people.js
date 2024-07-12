@@ -59,6 +59,7 @@ var peopleConfig = {
     src: GLOBAL_CONFIG.peoplecanvas.img,
     rows: 15,
     cols: 7,
+    peopelNum: GLOBAL_CONFIG.peoplecanvas.peopleNum,
   },
   randomRange = function (e, r) {
     return e + Math.random() * (r - e);
@@ -199,7 +200,7 @@ function createPeeps() {
   for (
     var e = peopleConfig.rows,
       r = peopleConfig.cols,
-      t = e * r,
+      t = peopleConfig.peopelNum,
       a = img.naturalWidth / e,
       n = img.naturalHeight / r,
       o = 0;

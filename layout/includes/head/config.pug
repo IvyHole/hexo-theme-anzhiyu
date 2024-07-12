@@ -117,7 +117,8 @@
   let preloader = 'undefined'
   if (theme.preloader && theme.preloader.enable) {
     preloader = JSON.stringify({
-      source: theme.preloader.source
+      source: theme.preloader.source,
+      load_style: theme.preloader.load_style
     })
   }
 

@@ -1,0 +1,11 @@
+if hexo-config('preloader.enable')
+  if hexo-config('preloader.load_style') == 'gear'
+    @import './_load_style/gear'
+  else if hexo-config('preloader.load_style') == 'wizard'
+    @import './_load_style/wizard'
+  else if hexo-config('preloader.load_style') == 'image'
+    @import './_load_style/image'
+  else if hexo-config('preloader.load_style') == 'cat'
+    @import './_load_style/cat'
+  else
+    @import './_load_style/default'

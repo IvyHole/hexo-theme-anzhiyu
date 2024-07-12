@@ -1,0 +1,38 @@
+
+- class_name: 小伙伴
+  class_desc: 总有人在孤独的前行
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Agimoesu
+      link: https://agimoesu.com/
+      avatar: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+      descr: 嗯呐哒，嗯呐哒
+      siteshot: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+
+- class_name: 推荐博客
+  flink_style: telescopic
+  hundredSuffix: ""
+  link_list:
+    - name: Agimoesu
+      link: https://agimoesu.com/
+      avatar: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+      descr: 嗯呐哒，嗯呐哒
+      siteshot: https://image.agimoesu.top/i/2024/jpg/668bb9638b331.jpg
+      color: vip
+      tag: 技术
+
+- class_name: 框架
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+      recommend: true
+    - name: anzhiyu主题
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true

@@ -238,10 +238,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const highlightShrinkClass = isHighlightShrink === true ? "closed" : "";
     const highlightShrinkEle =
       isHighlightShrink !== undefined
-        ? '<i class="anzhiyufont anzhiyu-icon-angle-down expand ${highlightShrinkClass}"></i>'
+        ? '<i class="iconfont iagm-angle-down expand ${highlightShrinkClass}"></i>'
         : "";
     const highlightCopyEle = highlightCopy
-      ? '<div class="copy-notice"></div><i class="anzhiyufont anzhiyu-icon-paste copy-button"></i>'
+      ? '<div class="copy-notice"></div><i class="iconfont iagm-paste copy-button"></i>'
       : "";
 
     const alertInfo = (ele, text) => {
@@ -309,7 +309,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (highlightHeightLimit && item.offsetHeight > highlightHeightLimit + 30) {
         const ele = document.createElement("div");
         ele.className = "code-expand-btn";
-        ele.innerHTML = '<i class="anzhiyufont anzhiyu-icon-angle-double-down"></i>';
+        ele.innerHTML = '<i class="iconfont iagm-angle-double-down"></i>';
         anzhiyu.addEventListenerPjax(ele, "click", expandCode);
         fragment.appendChild(ele);
       }
@@ -824,7 +824,7 @@ document.addEventListener("DOMContentLoaded", function () {
       $body.classList.add("read-mode");
       const newEle = document.createElement("button");
       newEle.type = "button";
-      newEle.className = "anzhiyufont anzhiyu-icon-xmark exit-readmode";
+      newEle.className = "iconfont iagm-xmark exit-readmode";
       $body.appendChild(newEle);
 
       const clickFn = () => {
@@ -1452,8 +1452,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const timer = setInterval(() => {
       if (navMusicEl && navMusicEl.querySelector("#nav-music meting-js").aplayer) {
         clearInterval(timer);
-        let msgPlay = '<i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span>';
-        let msgPause = '<i class="anzhiyufont anzhiyu-icon-pause"></i><span>暂停音乐</span>';
+        let msgPlay = '<i class="iconfont iagm-play"></i><span>播放音乐</span>';
+        let msgPause = '<i class="iconfont iagm-pause"></i><span>暂停音乐</span>';
         navMusicEl.querySelector("#nav-music meting-js").aplayer.on("pause", function () {
           navMusicEl.classList.remove("playing");
           document.getElementById("menu-music-toggle").innerHTML = msgPlay;

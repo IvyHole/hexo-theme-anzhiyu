@@ -649,8 +649,8 @@ const anzhiyu = {
       anzhiyu.musicBindEvent();
       anzhiyu_musicFirst = true;
     }
-    let msgPlay = '<i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span>';
-    let msgPause = '<i class="anzhiyufont anzhiyu-icon-pause"></i><span>暂停音乐</span>';
+    let msgPlay = '<i class="iconfont iagm-play"></i><span>播放音乐</span>';
+    let msgPause = '<i class="iconfont iagm-pause"></i><span>暂停音乐</span>';
     if (anzhiyu_musicPlaying) {
       navMusicEl.classList.remove("playing");
       document.getElementById("menu-music-toggle").innerHTML = msgPlay;
@@ -1272,7 +1272,7 @@ const anzhiyu = {
           left: 0,
           behavior: "smooth",
         });
-        nextButton.innerHTML = '<i class="anzhiyufont anzhiyu-icon-angle-double-right"></i>';
+        nextButton.innerHTML = '<i class="iconfont iagm-angle-double-right"></i>';
       } else {
         // 滚动到下一个视图
         items.scrollBy({
